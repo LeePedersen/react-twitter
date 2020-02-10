@@ -1,7 +1,7 @@
 import React from 'react';
 
 var bioBlurb = {
-  border: "solid 2px",
+  border: "solid 2px grey",
   padding: "4px",
   margin: "8px"
 }

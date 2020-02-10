@@ -1,11 +1,6 @@
 import React from 'react';
 import TrendingProfile from './TrendingProfile';
 
-var icon = {
-  width: "70px",
-  float: "left"
-}
-
 function Trends(props){
   return(
     <div>

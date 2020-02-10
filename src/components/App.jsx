@@ -12,20 +12,20 @@ var header = {
 var leftColumn = {
   width: "32%",
   float: "left",
-  border: "2px solid"
+  border: "2px solid grey"
 }
 
 var middleColumn = {
   width: "32%",
   marginLeft: "33.5%",
   position: "absolute",
-  border: "1px solid"
+  border: "1px solid grey"
 }
 
 var rightColumn = {
   width: "32%",
   // marginLeft: "65%",
-  border: "2px solid",
+  border: "2px solid grey",
   float: "right"
 }
 

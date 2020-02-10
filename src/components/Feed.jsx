@@ -1,9 +1,11 @@
 import React from 'react';
 import Tweet from "./Tweet";
+import TweetInput from './TweetInput'
 
 function Feed(){
   return(
     <div>
+      <TweetInput/>
       <div>
         <Tweet
           name="User Name"
