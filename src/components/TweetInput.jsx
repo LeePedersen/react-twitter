@@ -7,7 +7,6 @@ function TweetInput(){
   }
 
   var tweetInput = {
-    marginBottom: "10px",
     marginLeft: "20px",
     padding: "4px",
     textAlign: "center",
@@ -16,8 +15,10 @@ function TweetInput(){
 
   return(
     <div>
-      <img style={icon} src="https://png.pngtree.com/png-vector/20191110/ourlarge/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg"></img>
-      <input style={tweetInput} placeholder="What's happening?"></input>
+      <p>
+        <img style={icon} src="https://png.pngtree.com/png-vector/20191110/ourlarge/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg"></img>
+        <input style={tweetInput} placeholder="What's happening?"></input>
+      </p>
     </div>
   );
 }
