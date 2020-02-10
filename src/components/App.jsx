@@ -4,25 +4,35 @@ import Feed from "./Feed";
 import Badge from "./Badge";
 import Trends from "./Trends";
 
-var leftColumn = {
-  width: "30%",
-  float: "left"
+var header = {
+  width: "100%",
+  marginBottom: "16px"
 }
+
+var leftColumn = {
+  width: "32%",
+  float: "left",
+  border: "2px solid"
+}
+
 var middleColumn = {
-  width: "30%",
-  marginLeft: "30%"
+  width: "32%",
+  marginLeft: "33.5%",
+  position: "absolute",
+  border: "1px solid"
 }
 
 var rightColumn = {
-  width: "30%",
-  marginLeft: "65%",
-  border: "1px solid"
+  width: "32%",
+  // marginLeft: "65%",
+  border: "2px solid",
+  float: "right"
 }
 
 function App(){
   return (
     <div className="row">
-      <div>
+      <div style={header}>
         <Header/>
       </div>
       <div style={leftColumn}>
@@ -39,8 +49,3 @@ function App(){
 }
 
 export default App;
-
-// <Feed/>
-//
-// <Suggestions/>
-//
