@@ -1,5 +1,5 @@
 import React from 'react'
-
+import PropTypes from 'prop-types'
 
 function TrendingProfile(props){
   var icon = {
@@ -13,6 +13,10 @@ function TrendingProfile(props){
       <button>Button</button>
     </p>
   )
+}
+
+TrendingProfile.propTypes = {
+  username: PropTypes.string
 }
 
 export default TrendingProfile

@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 function Header(){
   var inputStyle = {
@@ -15,7 +15,7 @@ function Header(){
       <button style={navItems}>Home</button>
       <button style={navItems}>Notifications</button>
       <button style={navItems}>Messages</button>
-      <input style={inputStyle} placeholder="Search"></input>
+      <input style={inputStyle} placeholder='Search'></input>
       <button style={navItems}>Tweet</button>
     </div>
   )
