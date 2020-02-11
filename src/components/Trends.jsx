@@ -1,31 +1,31 @@
-import React from 'react';
-import TrendingProfile from './TrendingProfile';
+import React from 'react'
+import TrendingProfile from './TrendingProfile'
 
-function Trends(props){
+function Trends(){
   return(
     <div>
       <div>
         <TrendingProfile
-          username="RagingSockPuppet"/>
+          username='RagingSockPuppet'/>
       </div>
       <div>
         <TrendingProfile
-          username="Mike202382"/>
+          username='Mike202382'/>
       </div>
       <div>
         <TrendingProfile
-          username="Test"/>
+          username='Test'/>
       </div>
       <div>
         <TrendingProfile
-          username="Username"/>
+          username='Username'/>
       </div>
       <div>
         <TrendingProfile
-          username="Username2"/>
+          username='Username2'/>
       </div>
     </div>
-  );
+  )
 }
 
-export default Trends;
+export default Trends

@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 function Header(){
   var inputStyle = {
@@ -9,7 +9,7 @@ function Header(){
     marginLeft: '16px',
     marginRight: '16px'
   }
-  
+
   return(
     <div>
       <button style={navItems}>Home</button>
@@ -18,7 +18,7 @@ function Header(){
       <input style={inputStyle} placeholder="Search"></input>
       <button style={navItems}>Tweet</button>
     </div>
-  );
+  )
 }
 
-export default Header;
+export default Header

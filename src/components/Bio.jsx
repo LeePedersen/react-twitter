@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
 var bioBlurb = {
-  border: "solid 2px grey",
-  padding: "4px",
-  margin: "8px"
+  border: 'solid 2px grey',
+  padding: '4px',
+  margin: '8px'
 }
 
 function Bio(){
@@ -14,4 +14,4 @@ function Bio(){
   )
 }
 
-export default Bio;
+export default Bio

@@ -1,18 +1,18 @@
-import React from 'react';
+import React from 'react'
 
 
 function TrendingProfile(props){
   var icon = {
-    width: "70px",
-    float: "left"
+    width: '70px',
+    float: 'left'
   }
   return(
     <p>
-      <img style={icon} src="https://png.pngtree.com/png-vector/20191110/ourlarge/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg"></img> <br/>
+      <img style={icon} src='https://png.pngtree.com/png-vector/20191110/ourlarge/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg'></img> <br/>
       {props.username}<br/>
-    <button>Button</button>
-  </p>
-  );
+      <button>Button</button>
+    </p>
+  )
 }
 
-export default TrendingProfile;
+export default TrendingProfile
